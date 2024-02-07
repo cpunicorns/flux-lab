@@ -25,9 +25,3 @@ spec:
             - name: REGION
               value: "EAST CAPE"
             replicaCount: 1
-            decryption:
-              provider: sops
-              secretRef:
-                name: sops-age
-
-
